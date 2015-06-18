@@ -14,5 +14,6 @@
 
 5. Open the remote file in the local vim session:
     :e scp://user@host/relative/path/from/home.txt
+   To save this content at your local computer just :w /path/to/this/file.txt
 
 
