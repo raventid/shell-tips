@@ -26,3 +26,10 @@ TCP taking recovery steps to account for lost packets in the stream. Have a look
 The presented values are counters, so you'll need to watch them for a while to get a feel for what's normal and what's
 anomalous, but the data is there. The retransmit and data loss counters are particularly useful.
    [julian@ubuntu ~]$ netstat -s | egrep -i 'loss|retran'
+   
+7. For a specific file use:
+     git checkout path/to/file/to/revert
+For all unstaged files use:
+     git checkout -- .
+Make sure to include the period at the end. If you have added some files they will stay untouched.
+
