@@ -36,5 +36,7 @@ Make sure to include the period at the end. If you have added some files they wi
 
 8. List all directoies with ls
     [julian@ubuntu ~]$ ls -d */
-   
+    
+9. Count all files in directory
+   find . -type f | wc -l
 
