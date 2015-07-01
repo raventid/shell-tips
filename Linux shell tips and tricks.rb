@@ -34,3 +34,7 @@ For all unstaged files use:
      git checkout -- .
 Make sure to include the period at the end. If you have added some files they will stay untouched.
 
+8. List all directoies with ls
+    [julian@ubuntu ~]$ ls -d */
+   
+
