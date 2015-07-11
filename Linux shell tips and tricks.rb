@@ -39,4 +39,6 @@ Make sure to include the period at the end. If you have added some files they wi
     
 9. Count all files in directory
    find . -type f | wc -l
+   
+10. ag - great tool like grep
 
