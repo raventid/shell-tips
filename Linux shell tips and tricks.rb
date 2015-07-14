@@ -42,3 +42,5 @@ Make sure to include the period at the end. If you have added some files they wi
    
 10. ag - great tool like grep. Repo to download - 
 
+11. vim-rails plugin for vim is awesome (Emodel, Econtroller and bunch of usefull commands)
+
