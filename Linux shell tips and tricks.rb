@@ -44,3 +44,5 @@ Make sure to include the period at the end. If you have added some files they wi
 
 11. vim-rails plugin for vim is awesome (Emodel, Econtroller and bunch of usefull commands)
 
+12. you have a few options when merging git branches, making not fast-forward merge is interesting option
+
