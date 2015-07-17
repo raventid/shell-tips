@@ -3,7 +3,7 @@
 
 2. Show and update info about CPU temperature
 	[julian@ubuntu ~]$ watch -n 1 -d sensors
-   this one could be used with with more advanced technics
+   this one could be used with more advanced technics
 
 3. How to really clear terminal screen?
     [julian@ubuntu ~]$ printf "\033c"
