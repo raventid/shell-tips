@@ -46,3 +46,6 @@ Make sure to include the period at the end. If you have added some files they wi
 
 12. you have a few options when merging git branches, making not fast-forward merge is interesting option
 
+13. [julian@ubuntu ~]$ sudo apt-get install mtr
+    this is a great utility with ping and trace functionaly and even GUI!
+
