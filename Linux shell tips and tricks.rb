@@ -48,4 +48,8 @@ Make sure to include the period at the end. If you have added some files they wi
 
 13. [julian@ubuntu ~]$ sudo apt-get install mtr
     this is a great utility with ping and trace functionaly and even GUI!
+    
+14. If you login to your ubuntu and all you see is cursor and background, you can try to empty your trash 
+    [julian@ubuntu ~]$ sudo rm -rf ~/.local/share/Trash/*
+    I've spend one day reading logs before I was able to figure out the problem (if not this, check .Xauthority, lightdm logs, x-server)
 
