@@ -54,3 +54,5 @@ Make sure to include the period at the end. If you have added some files they wi
     I've spend one day reading logs before I was able to figure out the problem (if not this, check .Xauthority, lightdm logs, x-server)
 
 15. Run gvim or vim from your project folder it'll help vim.rails to work correctly
+
+16. Using '&&' in shell while writing commands let me get the job done faster
