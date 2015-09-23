@@ -7,7 +7,7 @@
 
 3. How to really clear terminal screen?
     [julian@ubuntu ~]$ printf "\033c"
-   You can make an alias for this command
+   You can make an alias for this command (stackoverflow - http://stackoverflow.com/questions/5367068/clear-the-ubuntu-bash-screen-for-real)
 
 4. Close frozen SSH session:
     I found a similar solution for ssh: [enter]~. First press the Enter key, then tilde, and then add a dot and your ssh session will be closed and you can continue your work in back in freed terminal.
