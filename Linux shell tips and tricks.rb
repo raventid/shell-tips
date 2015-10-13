@@ -56,3 +56,8 @@ Make sure to include the period at the end. If you have added some files they wi
 15. Run gvim or vim from your project folder it'll help vim.rails to work correctly
 
 16. Using '&&' in shell while writing commands let me get the job done faster
+
+17. Save vim file with sudo. You started to edit some config file with vim and found out that it is sudo's file, you 
+can check out this trick - {{{{{{{   :w !sudo tee %   }}}}}}}
+Additional info may be found here - 
+http://stackoverflow.com/questions/2600783/how-does-the-vim-write-with-sudo-trick-work
