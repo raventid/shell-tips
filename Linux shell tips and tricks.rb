@@ -61,3 +61,7 @@ Make sure to include the period at the end. If you have added some files they wi
 can check out this trick - {{{{{{{   :w !sudo tee %   }}}}}}}
 Additional info may be found here - 
 http://stackoverflow.com/questions/2600783/how-does-the-vim-write-with-sudo-trick-work
+
+18. This is how to setup ssh account to your server -> 
+[julian@ubuntu ~]$ cat ~/.ssh/id_rsa.pub | ssh {user}@{ip_address} 'cat >> /home/{user}/.ssh/authorized_keys
+
