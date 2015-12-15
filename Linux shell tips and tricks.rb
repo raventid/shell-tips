@@ -65,3 +65,12 @@ http://stackoverflow.com/questions/2600783/how-does-the-vim-write-with-sudo-tric
 18. This is how to setup ssh account to your server -> 
 [julian@ubuntu ~]$ cat ~/.ssh/id_rsa.pub | ssh {user}@{ip_address} 'cat >> /home/{user}/.ssh/authorized_keys'
 
+19. [julian@ubuntu ~]$ sudo apt-get checkinstall
+ This program allows you to create .deb packages for ubuntu (or debian, or even .rpm packages) and install them
+  --install, install created package right now.
+  --pkgname, name of package
+  --pkgversion, version of package
+  with name and version your package gonna be notable in dpkg
+  --nodoc, do you really need documentation?
+  there is a few more options, read man
+
