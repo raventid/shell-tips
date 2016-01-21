@@ -73,4 +73,10 @@ http://stackoverflow.com/questions/2600783/how-does-the-vim-write-with-sudo-tric
   with name and version your package gonna be notable in dpkg
   --nodoc, do you really need documentation?
   there is a few more options, read man
+  
+20. Fixing harddrive with unix command line:
+     It might be as simple as just resize filesystem. Just be attentive at analizing fsck, mount and other utilities output.
+
+       http://serverfault.com/questions/493091/how-to-recover-data-from-a-corrupted-ext3-partition
+       http://www.linuxquestions.org/questions/linux-hardware-18/size-in-superblock-is-different-from-the-physical-size-of-the-partition-298175/
 
