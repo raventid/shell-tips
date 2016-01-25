@@ -80,3 +80,4 @@ http://stackoverflow.com/questions/2600783/how-does-the-vim-write-with-sudo-tric
        http://serverfault.com/questions/493091/how-to-recover-data-from-a-corrupted-ext3-partition
        http://www.linuxquestions.org/questions/linux-hardware-18/size-in-superblock-is-different-from-the-physical-size-of-the-partition-298175/
 
+21. pv - utility for creating progress bar anywhere you want.
