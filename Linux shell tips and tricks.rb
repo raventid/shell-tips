@@ -81,3 +81,18 @@ http://stackoverflow.com/questions/2600783/how-does-the-vim-write-with-sudo-tric
        http://www.linuxquestions.org/questions/linux-hardware-18/size-in-superblock-is-different-from-the-physical-size-of-the-partition-298175/
 
 21. pv - utility for creating progress bar anywhere you want.
+
+22. [julian@ubuntu ~]$ sudo apt-get install isc-dhcp-server
+    [julian@ubuntu ~]$ sudo vim /etc/default/isc-dhcp-server //change INTERFACES=”” to eth0 or eth1
+    [julian@ubuntu ~]$ sudo vim /etc/dhcp/dhcpd.conf 
+    //You can comment 2
+	default-lease-time 600; 
+	max-lease-time 7200;
+   //And add
+    subnet 192.168.0.0 netmask 255.255.255.0 {
+	range 192.168.0.10 192.168.0.254; //range of address to give
+	option domain-name-servers 192.168.0.1; // your dns server
+	option domain-name "lab.loc"; // your domain name
+	option routers 192.168.0.1; // router address
+	option broadcast-address 192.168.0.255; // this is ok, leave it
+    default-lease-time 604800; max-lease-time 604800; }
