@@ -96,3 +96,6 @@ http://stackoverflow.com/questions/2600783/how-does-the-vim-write-with-sudo-tric
 	option routers 192.168.0.1; // router address
 	option broadcast-address 192.168.0.255; // this is ok, leave it
     default-lease-time 604800; max-lease-time 604800; }
+    
+23. [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+    I usually add this to my bash_profile
