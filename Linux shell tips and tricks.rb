@@ -99,3 +99,12 @@ http://stackoverflow.com/questions/2600783/how-does-the-vim-write-with-sudo-tric
     
 23. [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
     I usually add this to my bash_profile
+    
+24. In Ruby super is a special case where parenthesis do matter...
+
+Calling super without parameter (nor parenthesis) in a method of a subclass calls the same method in the super-class
+(or its ancestors if the superclass does not define it) with all the parameter passed to the subclass method.
+
+Calling super() calls the superclass (or ancestors) method without any parameter (assuming this method accept no parameters...)
+
+Calling super(...) with any combination of parameters calls the superclass method, passing it the paramaters
