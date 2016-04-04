@@ -108,3 +108,6 @@ Calling super without parameter (nor parenthesis) in a method of a subclass call
 Calling super() calls the superclass (or ancestors) method without any parameter (assuming this method accept no parameters...)
 
 Calling super(...) with any combination of parameters calls the superclass method, passing it the paramaters
+
+25. Nice command to remove all deleted files from SVN. (it is like git rm --cached)
+    [julian@ubuntu ~]$ for i in  $(svn st | grep \! | awk '{print $2}'); do svn delete $i; done
