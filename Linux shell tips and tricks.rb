@@ -111,3 +111,5 @@ Calling super(...) with any combination of parameters calls the superclass metho
 
 25. Nice command to remove all deleted files from SVN. (it is like git rm --cached)
     [julian@ubuntu ~]$ for i in  $(svn st | grep \! | awk '{print $2}'); do svn delete $i; done
+    
+26. dmidecode is a super usefull linux utility for getting your motheboard, bios and other stuff information. Helped me a lot!
