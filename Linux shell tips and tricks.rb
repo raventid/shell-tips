@@ -116,3 +116,6 @@ Calling super(...) with any combination of parameters calls the superclass metho
 
 27. Wanna see your repository info in browser? Let git surprise you 
     [julian@ubuntu ~]$ git instaweb --httpd=webrick
+
+28. Very nice way to see who is listening to some port is 
+    [julian@mac ~]$ lsof -n -i:$PORT | rg LISTEN
