@@ -119,3 +119,17 @@ Calling super(...) with any combination of parameters calls the superclass metho
 
 28. Very nice way to see who is listening to some port is 
     [julian@mac ~]$ lsof -n -i:$PORT | rg LISTEN
+
+29. There is really nice way in Ruby to trace your code execution. Best function here is `set_trace_func`, read about it.
+
+	start = DateTime.now.strftime('%Q').to_i / 1000.0
+	set_trace_func proc { |event, file, line, id, binding, classname|
+	  now_ms = DateTime.now.strftime('%Q').to_i / 1000.0
+	  duration = '%.3f' % (now_ms - start)
+	  start = DateTime.now.strftime('%Q').to_i / 1000.0
+	  printf "%s %s %8s %s:%-2d %10s %8s\n", DateTime.now.strftime("%S.%L"), duration, event, file, line, id, classname
+	}
+
+	Your code goes here
+
+	set_trace_func nil
