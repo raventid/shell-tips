@@ -137,3 +137,5 @@ Calling super(...) with any combination of parameters calls the superclass metho
 
 31. Spacemacs issue when you use corrupted .bash_profile
     https://github.com/syl20bnr/spacemacs/issues/4755
+
+32. When debuggin network connection in strace pay special attention to the port. It might just be closed.
