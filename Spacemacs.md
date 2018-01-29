@@ -10,3 +10,5 @@
 - M-/ - is a default expansion key for Spacemacs's yasnippet. Handling snippets is quite easy. You should type `M-x yas-new-snippet`. Wizard will provide you with instructions for creating new snippet, will help you to save snippet to private mode folder and will compile and load it into current layer(by default snippets are layer local, which is correct behaviour in my opinion). If snippets are not reloaded, then you can use `yas-recompile-all` and `yas-reload-all`
 
 - M-x ibuffer - Smart buffer control (not evil mode, but usefull). To close every dired buffer we need to move to any dired file and press `* /`, it will select all of them. `D` - to delete them. I found a weird way to close this buffer. I press `RET` on any other buffer with evil mode. From there i press `SPC b C-d`, write `ibuffer` and it kills it. Weird approach, but works for now.
+
+- mx - vim style (book)marks, this command sets it under cursor with name `x`. Feature I didn't know exists. Missed it, cause I used it a lot in IntelliJ. You can watch `:marks` every bookmark this way.
