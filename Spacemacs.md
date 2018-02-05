@@ -14,3 +14,12 @@
 - mx - vim style (book)marks, this command sets it under cursor with name `x`. Feature I didn't know exists. Missed it, cause I used it a lot in IntelliJ. You can watch `:marks` every bookmark this way.
 
 - cs]) - Change Surround from [] to (). You can use any surrounding. Rules are the same `(` with additional spaces and `)` without them.
+
+
+
+
+
+
+
+
+TODO: Setup chm reader inside Emacs. Two panel file browser(emacs-mc). Eshell - really need to dig it. Find mode to work with IO language. Read pdf inside emacs. Setup slack with notifications, code snippets, emoji and colorfull output.
