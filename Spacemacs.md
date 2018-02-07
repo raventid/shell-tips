@@ -15,6 +15,8 @@
 
 - cs]) - Change Surround from [] to (). You can use any surrounding. Rules are the same `(` with additional spaces and `)` without them.
 
+- yyp - Superusefull command to copy current linen and paste it after. `yy` could be `Y` and `P` for pasting line before the current(not after). 
+
 
 
 
