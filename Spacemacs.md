@@ -17,7 +17,7 @@
 
 - yyp - Superusefull command to copy current linen and paste it after. `yy` could be `Y` and `P` for pasting line before the current(not after). 
 
-
+- ESC-ESC-ESC - make current buffer full-screen.
 
 
 
