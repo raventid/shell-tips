@@ -20,7 +20,7 @@ the line.
 
 - ESC-ESC-ESC - make current buffer full-screen.
 
-
+- SPC w w - switch between two windows. Quite usefull.
 
 
 
