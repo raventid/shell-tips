@@ -22,6 +22,7 @@ the line.
 
 - SPC w w - switch between two windows. Quite usefull.
 
+- SPC f F - helm-find-files supports opening a file as root with C-c r, it will ask you a password
 
 
 
