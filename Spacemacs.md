@@ -26,6 +26,8 @@ the line.
 
 - rectangle-number-lines - It has very complex shortcut so it's easier to type. Well. This is game changer. It allows you to insert a column of increasing numbers when you are in visual selection mode. Really game changer.
 
+- switch to sgml-mode, then call sgml-pretty-print - format xml, quite slow, but working. formats it really well :)
+
 
 
 TODO: Setup chm reader inside Emacs. Two panel file browser(emacs-mc). Eshell - really need to dig it. Find mode to work with IO language. Read pdf inside emacs. Setup slack with notifications, code snippets, emoji and colorfull output. And how to search text in currently open `dired mode`?
