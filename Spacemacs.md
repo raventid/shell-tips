@@ -28,6 +28,6 @@ the line.
 
 - switch to sgml-mode, then call sgml-pretty-print - format xml, quite slow, but working. formats it really well :)
 
-
+- SHIFT + j - move next line up to previous
 
 TODO: Setup chm reader inside Emacs. Two panel file browser(emacs-mc). Eshell - really need to dig it. Find mode to work with IO language. Read pdf inside emacs. Setup slack with notifications, code snippets, emoji and colorfull output. And how to search text in currently open `dired mode`?
