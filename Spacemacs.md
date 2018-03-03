@@ -30,4 +30,6 @@ the line.
 
 - SHIFT + j - move next line up to previous
 
+- SHIFT + o in dired mode - change ownership of the file. didn't try it with directories, but I suppose it works. Good!
+
 TODO: Setup chm reader inside Emacs. Two panel file browser(emacs-mc). Eshell - really need to dig it. Find mode to work with IO language. Read pdf inside emacs. Setup slack with notifications, code snippets, emoji and colorfull output. And how to search text in currently open `dired mode`?
