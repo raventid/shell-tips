@@ -133,6 +133,9 @@ Calling super(...) with any combination of parameters calls the superclass metho
 	Your code goes here
 
 	set_trace_func nil
+	
+	Uses it in Tracerius now.
+		
 30. Good GDB cheatsheet -> http://darkdust.net/files/GDB%20Cheat%20Sheet.pdf
 
 31. Spacemacs issue when you use corrupted .bash_profile
