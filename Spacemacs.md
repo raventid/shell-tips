@@ -37,3 +37,4 @@ the line.
 TODO: Setup chm reader inside Emacs. Two panel file browser(emacs-mc). Eshell - really need to dig it. Find mode to work with IO language. Read pdf inside emacs. Setup slack with notifications, code snippets, emoji and colorfull output. And how to search text in currently open `dired mode`?
 
 - SPC s S - search selected string in current file (opens up minibuffer with preview)
+- SPC s s - just search in file with nice preview, interface is the same as in previous command
