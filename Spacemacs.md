@@ -27,6 +27,13 @@ the line.
 - rectangle-number-lines - It has very complex shortcut so it's easier to type. Well. This is game changer. It allows you to insert a column of increasing numbers when you are in visual selection mode. Really game changer.
 
 - switch to sgml-mode, then call sgml-pretty-print - format xml, quite slow, but working. formats it really well :)
+But you should select a region first and then it will create smth like this:
+```
+<UniqueKey>1
+</UniqueKey>
+<QuoteNum>1
+</QuoteNum>
+```
 
 - SHIFT + j - move next line up to previous
 
