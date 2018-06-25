@@ -47,3 +47,5 @@ TODO: Setup chm reader inside Emacs. Two panel file browser(emacs-mc). Eshell - 
 - SPC s s - just search in file with nice preview, interface is the same as in previous command
 
 - Enter dired mode -> Select files with `m` -> Call `dired-to-compress(Z) or dired-to-compress-to(c)` - you can add any extension to your archive and so you can create `zip`, `gz` and I believe many more packages.
+
+- TODO: notes about Ruby, Elixir and Haskell modes. Would be greate to write a bit about DAP debuggers.
