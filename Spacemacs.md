@@ -49,3 +49,14 @@ TODO: Setup chm reader inside Emacs. Two panel file browser(emacs-mc). Eshell - 
 - Enter dired mode -> Select files with `m` -> Call `dired-to-compress(Z) or dired-to-compress-to(c)` - you can add any extension to your archive and so you can create `zip`, `gz` and I believe many more packages.
 
 - TODO: notes about Ruby, Elixir and Haskell modes. Would be greate to write a bit about DAP debuggers.
+
+
+
+
+
+
+
+ELIXIR:
+
+To run your test with available IEx.pry you can run them with `iex -S mix test --trace`
+`--trace` will stop them from timing out and `iex -S` will run them inside IEx session, that will catch `pry`  
