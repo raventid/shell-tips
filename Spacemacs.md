@@ -59,4 +59,5 @@ TODO: Setup chm reader inside Emacs. Two panel file browser(emacs-mc). Eshell - 
 ELIXIR:
 
 To run your test with available IEx.pry you can run them with `iex -S mix test --trace`
-`--trace` will stop them from timing out and `iex -S` will run them inside IEx session, that will catch `pry`  
+`--trace` will stop them from timing out and `iex -S` will run them inside IEx session, that will catch `pry`
+There is also awesome `--no-start` flag, to avoid starting supervision tree. Summary: read the docs :)  
