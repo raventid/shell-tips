@@ -48,6 +48,21 @@ TODO: Setup chm reader inside Emacs. Two panel file browser(emacs-mc). Eshell - 
 
 - Enter dired mode -> Select files with `m` -> Call `dired-to-compress(Z) or dired-to-compress-to(c)` - you can add any extension to your archive and so you can create `zip`, `gz` and I believe many more packages.
 
+-   Global search:
+        - SPC / and type in your search string
+        - SPC x S and search string - where x is your scope indicator (p for project, d for directory, etc..)
+    Once you have the occurences you want, hit C-c C-e inside the helm buffer to put all your match occurences and puts them into a special buffer
+    in that buffer you can use any commands you'd normally use on a buffer
+    strike C-c C-c to commit changes
+
+ To open up your search results in separate buffer (to work with them (you'll be able to open them one by one))
+ Ctrl x s
+
+
+
+
+
+
 - TODO: notes about Ruby, Elixir and Haskell modes. Would be greate to write a bit about DAP debuggers.
 
 
